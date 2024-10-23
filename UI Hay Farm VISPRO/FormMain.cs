@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace UI_Hay_Farm_VISPRO
 {
-    public partial class FormMain : Form
+    public partial class FrmMain : Form
     {
-        public FormMain()
+        public FrmMain()
         {
             InitializeComponent();
         }
@@ -44,6 +44,40 @@ namespace UI_Hay_Farm_VISPRO
         }
 
         private void buttonInventaris_Click(object sender, EventArgs e)
+        {
+            FormInventaris formInventaris = new FormInventaris();
+            formInventaris.Show();
+            this.Hide();
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            FrmPengaturan frmPengaturan = new FrmPengaturan();
+            frmPengaturan.Show();
+            this.Hide();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FormMain_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click_2(object sender, EventArgs e)
         {
             FormInventaris formInventaris = new FormInventaris();
             formInventaris.Show();

@@ -24,7 +24,7 @@ namespace UI_Hay_Farm_VISPRO
 
         private void btnKembali_Click(object sender, EventArgs e)
         {
-            FormMain formMain = new FormMain();
+            FrmMain formMain = new FrmMain();
             formMain.Show();
             this.Hide();
         }
@@ -35,6 +35,26 @@ namespace UI_Hay_Farm_VISPRO
         }
 
         private void dataGridViewInventaris_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void FormPupukdanPenyiraman_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnEdit_Click(object sender, EventArgs e)
         {
 
         }

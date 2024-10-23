@@ -39,9 +39,14 @@ namespace UI_Hay_Farm_VISPRO
 
         private void buttonKembali_Click(object sender, EventArgs e)
         {
-            FormMain formMain = new FormMain();
+            FrmMain formMain = new FrmMain();
             formMain.Show();
             this.Hide();
+
+        }
+
+        private void btnTambah_Click(object sender, EventArgs e)
+        {
 
         }
     }
